@@ -1,0 +1,56 @@
+.test-overley{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 400px;
+    opacity: 0;
+    transform: translateY(100%);
+   background-color: var(--dark-text);
+   transition: transform 0.5s  cubic-bezier(0.4, 0, 0.2, 1) 250ms, opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+   color: #FFF;
+   font-family: "Roboto" sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0.54px;
+   background-color: #F38181;
+   padding-top: 63px;
+   padding-left: 24px;
+   }
+   
+   .test-list{
+   display: flex;
+   
+   }
+   
+   .test-linker{
+    width: 250px;
+    height: 400px;
+   overflow: hidden;
+   position: relative;
+   }
+   .test-linker:hover .test-overley{
+    opacity: 1;
+    transform: translateY(0);
+   }
+   .help{
+    width: 75px;
+    height: 400px;
+    color: #333333;
+    background-color: #F38181;
+   }
+   
+   .to-top{
+   animation-name: change-color;
+   animation-duration: 5s;
+   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   animation-iteration-count: infinite;
+   animation-duration: alternate;
+   }
+.aaa:hover{
+    display: flex;
+color: aqua;
+}
+
+
